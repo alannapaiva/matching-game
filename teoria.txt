@@ -1,0 +1,29 @@
+API HTML: representaçao do html dentro do js
+DOM (Document Object Model) != de JS
+
+
+BOM(Browser Object Model)
+window 
+
+tofa variave com $ guarda uma referencia/elemento da tela 
+
+main.js é a representaçao de onde vai fazer tudo que vai fazer com js 
+
+insertAdjacentHTML analisa o texto especificado como HTML ou XML e insere os nós que resultam na árvore DOM em uma posição especificada. Não reanalisa o elemento que está a ser utilizado e, portanto, não corrompe os elementos existentes dentro do elemento. Esta, e evitando a etapa extra de serialização, torna-o muito mais rápido do que a manipulação direta innerHTML.
+    Sintaxe
+        element.insertAdjacentHTML(posição, texto);
+
+    Posição é a posição em relação ao elemento, e deve ser um dos seguintes tipos:
+        'beforebegin'
+        Antes do elemento.
+        'afterbegin'
+        Dentro do elemento, antes de seu primeiro filho (childNode).
+        'beforeend'
+        Dentro do elemento, após seu último filho (childNode) .
+        'afterend'
+        Após o elemento.
+
+    texto é a string a ser analisada como HTML ou XML e inserido na árvore. (root)
+
+    pasta styles -> elements-> base.css = aonde irá definir a cor de fundo do site
+    pasta style -> settings -> colors.css = fica todas as cores usadas no projeto
